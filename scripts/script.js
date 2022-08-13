@@ -1,10 +1,10 @@
 window.onload = () => {
     let bear = Bear();
-    bear.location = bear.text.location = { latitude: 30.968841583102762, longitude: 70.96617890806205 };
+    bear.location = bear.text.location = { latitude: 42.36089959581339, longitude: -71.04905463968079 };
     createEntity(bear);
 
     let bear2 = Bear();
-    bear2.location = bear2.text.location = { latitude: 30.968841583102762, longitude: 70.96617890806205 };
+    bear2.location = bear2.text.location = { latitude: 42.36089959581339, longitude: -71.04905463968079 };
     createEntity(bear2);
 };
 
